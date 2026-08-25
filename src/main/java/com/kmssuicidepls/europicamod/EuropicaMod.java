@@ -1,5 +1,7 @@
 package com.kmssuicidepls.europicamod;
 
+import com.kmssuicidepls.europicamod.items.ModItems;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 import org.slf4j.Logger;
@@ -31,6 +33,8 @@ public class EuropicaMod {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+        ModItems.register(modEventBus);
+
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 
@@ -40,6 +44,9 @@ public class EuropicaMod {
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         // e.g. add your items to a creative tab here
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.EUROPICADUCAT);
+        }
     }
 
     private void commonSetup(FMLCommonSetupEvent event) {
