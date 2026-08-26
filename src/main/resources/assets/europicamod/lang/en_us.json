@@ -1,7 +1,9 @@
 {
+  "creativetab.europicamod.europica_mod": "Europica Mod",
+
   "item.europicamod.europicaducat": "Europica Ducat",
   "item.europicamod.europicaticket": "Europica Ticket",
 
   "block.europicamod.placeholder_block": "Block of Placeholding",
-  "block.europicamod.france_block": "Block of Immigrants"
+  "block.europicamod.france_block": "Block of Baguettes"
 }

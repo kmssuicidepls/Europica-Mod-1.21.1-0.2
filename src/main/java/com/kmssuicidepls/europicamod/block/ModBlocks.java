@@ -27,7 +27,7 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> FRANCE_BLOCK = registerBlock("france_block",
             () -> new DropExperienceBlock(UniformInt.of(100, 3000),
-                    BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.BONE_BLOCK)));
+                    BlockBehaviour.Properties.of().strength(1f).sound(SoundType.BONE_BLOCK)));
 
 
 
