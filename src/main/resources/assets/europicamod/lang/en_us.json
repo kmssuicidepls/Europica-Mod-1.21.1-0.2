@@ -5,5 +5,8 @@
   "item.europicamod.europicaticket": "Europica Ticket",
 
   "block.europicamod.placeholder_block": "Block of Placeholding",
-  "block.europicamod.france_block": "Block of Baguettes"
+  "block.europicamod.france_block": "Block of Baguettes",
+
+  "painting.europicamod.europica_logo.title": "Europica Logo",
+  "painting.europicamod.europica_logo.author": "Europica Team"
 }

@@ -23,6 +23,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.EUROPICATICKET);
                         output.accept(ModBlocks.FRANCE_BLOCK);
                         output.accept(ModBlocks.PLACEHOLDER_BLOCK);
+
                     }).build());
 
     public static void register (IEventBus eventBus) {
