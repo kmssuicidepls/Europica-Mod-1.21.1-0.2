@@ -11,8 +11,8 @@ public class ModItems {
 
     public static final DeferredItem<Item> EUROPICADUCAT = ITEMS.register("europicaducat",
             () -> new Item(new Item.Properties()));
-
-
+    public static final DeferredItem<Item> EUROPICATICKET = ITEMS.register("europicaticket",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

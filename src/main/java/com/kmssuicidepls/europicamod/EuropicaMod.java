@@ -46,6 +46,7 @@ public class EuropicaMod {
         // e.g. add your items to a creative tab here
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.EUROPICADUCAT);
+            event.accept(ModItems.EUROPICATICKET);
         }
     }
 
