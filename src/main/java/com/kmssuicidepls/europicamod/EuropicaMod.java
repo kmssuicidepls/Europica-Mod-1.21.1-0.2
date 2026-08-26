@@ -1,5 +1,6 @@
 package com.kmssuicidepls.europicamod;
 
+import com.kmssuicidepls.europicamod.block.ModBlocks;
 import com.kmssuicidepls.europicamod.items.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
@@ -34,7 +35,7 @@ public class EuropicaMod {
         NeoForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
-
+        ModBlocks.register(modEventBus);
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 
@@ -47,6 +48,11 @@ public class EuropicaMod {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.EUROPICADUCAT);
             event.accept(ModItems.EUROPICATICKET);
+        }
+
+        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.PLACEHOLDER_BLOCK);
+            event.accept(ModBlocks.FRANCE_BLOCK);
         }
     }
 

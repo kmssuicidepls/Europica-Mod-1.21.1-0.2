@@ -1,4 +1,7 @@
 {
   "item.europicamod.europicaducat": "Europica Ducat",
-  "item.europicamod.europicaticket": "Europica Ticket"
+  "item.europicamod.europicaticket": "Europica Ticket",
+
+  "block.europicamod.placeholder_block": "Block of Placeholding",
+  "block.europicamod.france_block": "Block of Immigrants"
 }
