@@ -4,6 +4,7 @@ import com.kmssuicidepls.europicamod.EuropicaMod;
 import com.kmssuicidepls.europicamod.items.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.DropExperienceBlock;
@@ -29,7 +30,9 @@ public class ModBlocks {
             () -> new DropExperienceBlock(UniformInt.of(100, 3000),
                     BlockBehaviour.Properties.of().strength(1f).sound(SoundType.BONE_BLOCK)));
 
-
+    public static final DeferredBlock<Block> INVISIBLE_BLOCK = registerBlock("invisible_block",
+            () -> new DropExperienceBlock(UniformInt.of(100, 3000),
+                    BlockBehaviour.Properties.of().strength(-2f).noOcclusion().sound(SoundType.ANVIL)));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

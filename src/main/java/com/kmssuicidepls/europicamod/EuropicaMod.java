@@ -3,7 +3,6 @@ package com.kmssuicidepls.europicamod;
 import com.kmssuicidepls.europicamod.block.ModBlocks;
 import com.kmssuicidepls.europicamod.items.ModCreativeModeTabs;
 import com.kmssuicidepls.europicamod.items.ModItems;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 import org.slf4j.Logger;
@@ -48,15 +47,6 @@ public class EuropicaMod {
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         // e.g. add your items to a creative tab here
-        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.EUROPICADUCAT);
-            event.accept(ModItems.EUROPICATICKET);
-        }
-
-        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-            event.accept(ModBlocks.PLACEHOLDER_BLOCK);
-            event.accept(ModBlocks.FRANCE_BLOCK);
-        }
     }
 
     private void commonSetup(FMLCommonSetupEvent event) {
