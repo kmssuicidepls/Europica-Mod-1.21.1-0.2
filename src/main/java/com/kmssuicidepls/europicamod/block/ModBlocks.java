@@ -26,13 +26,34 @@ public class ModBlocks {
                         .strength(4f).requiresCorrectToolForDrops().sound(SoundType.ANVIL));
             });
 
-    public static final DeferredBlock<Block> FRANCE_BLOCK = registerBlock("france_block",
-            () -> new DropExperienceBlock(UniformInt.of(100, 3000),
-                    BlockBehaviour.Properties.of().strength(1f).sound(SoundType.BONE_BLOCK)));
 
     public static final DeferredBlock<Block> INVISIBLE_BLOCK = registerBlock("invisible_block",
             () -> new DropExperienceBlock(UniformInt.of(100, 3000),
                     BlockBehaviour.Properties.of().strength(-2f).noOcclusion().sound(SoundType.ANVIL)));
+
+    public static final DeferredBlock<Block> FRANCE_BLOCK = registerBlock("france_block",
+            () -> new DropExperienceBlock(UniformInt.of(100, 3000),
+                    BlockBehaviour.Properties.of().strength(1f).sound(SoundType.BONE_BLOCK)));
+
+    public static final DeferredBlock<Block> AMERICA_BLOCK = registerBlock("usa_block",
+            () -> new DropExperienceBlock(UniformInt.of(100, 3000),
+                    BlockBehaviour.Properties.of().strength(1f).sound(SoundType.BONE_BLOCK)));
+
+    public static final DeferredBlock<Block> DUTCH_BLOCK = registerBlock("dutch_block",
+            () -> new DropExperienceBlock(UniformInt.of(100, 3000),
+                    BlockBehaviour.Properties.of().strength(1f).sound(SoundType.BONE_BLOCK)));
+
+    public static final DeferredBlock<Block> GODSCOUNTRY = registerBlock("godscountry",
+            () -> new DropExperienceBlock(UniformInt.of(100, 3000),
+                    BlockBehaviour.Properties.of().strength(1f).sound(SoundType.AMETHYST)));
+
+    public static final DeferredBlock<Block> GERMAN_BLOCK = registerBlock("german_block",
+            () -> new DropExperienceBlock(UniformInt.of(100, 3000),
+                    BlockBehaviour.Properties.of().strength(1f).sound(SoundType.BONE_BLOCK).));
+
+    public static final DeferredBlock<Block> BRITISH_BLOCK = registerBlock("british_block",
+            () -> new DropExperienceBlock(UniformInt.of(100, 3000),
+                    BlockBehaviour.Properties.of().strength(1f).sound(SoundType.BONE_BLOCK)));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

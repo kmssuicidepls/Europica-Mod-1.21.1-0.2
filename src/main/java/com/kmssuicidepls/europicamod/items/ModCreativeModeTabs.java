@@ -21,9 +21,14 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.EUROPICADUCAT);
                         output.accept(ModItems.EUROPICATICKET);
-                        output.accept(ModBlocks.FRANCE_BLOCK);
                         output.accept(ModBlocks.PLACEHOLDER_BLOCK);
                         output.accept(ModBlocks.INVISIBLE_BLOCK);
+                        output.accept(ModBlocks.FRANCE_BLOCK);
+                        output.accept(ModBlocks.AMERICA_BLOCK);
+                        output.accept(ModBlocks.DUTCH_BLOCK);
+                        output.accept(ModBlocks.GODSCOUNTRY);
+                        output.accept(ModBlocks.GERMAN_BLOCK);
+                        output.accept(ModBlocks.BRITISH_BLOCK);
                     }).build());
 
     public static void register (IEventBus eventBus) {

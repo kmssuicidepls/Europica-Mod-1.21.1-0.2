@@ -3,11 +3,15 @@
 
   "item.europicamod.europicaducat": "Europica Ducat",
   "item.europicamod.europicaticket": "Europica Ticket",
-  "item.europicamod.american_banner": "American Flag",
 
   "block.europicamod.placeholder_block": "Block of Placeholding",
-  "block.europicamod.france_block": "Block of Baguettes",
   "block.europicamod.invisible_block": "Invisible Block",
+  "block.europicamod.france_block": "Block of Baguettes",
+  "block.europicamod.usa_block": "Block of Burgers",
+  "block.europicamod.dutch_block": "Block of Windmills",
+  "block.europicamod.godscountry": "Block of Buc-ees",
+  "block.europicamod.german_block": "Block of Schnitzel",
+  "block.europicamod.british_block": "Block of Monocles",
 
   "painting.europicamod.europica_logo.title": "Europica Logo",
   "painting.europicamod.europica_logo.author": "Europica Team"
