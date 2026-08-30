@@ -1,6 +1,10 @@
 {
   "variants": {
     "": {
+      "facing=north": { "model": "europicamod:block/godscountry" },
+      "facing=south": { "model": "europicamod:block/godscountry", "y": 180 },
+      "facing=east": { "model": "europicamod:block/godscountry", "y": 90 },
+      "facing=west": { "model": "europicamod:block/godscountry", "y": 270 },
       "model": "europicamod:block/godscountry"
     }
   }

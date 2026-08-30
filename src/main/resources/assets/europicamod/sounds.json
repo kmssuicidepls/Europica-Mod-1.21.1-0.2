@@ -1,0 +1,22 @@
+{
+  "godscountry_place": {
+    "subtitle": "sounds.europicamod.godscountry_place",
+    "sounds": ["europicamod:godscountry_place"]
+  },
+  "godscountry_step": {
+    "subtitle": "sounds.europicamod.godscountry_step",
+    "sounds": ["europicamod:godscountry_step"]
+  },
+  "godscountry_break": {
+    "subtitle": "sounds.europicamod.godscountry_break",
+    "sounds": ["europicamod:godscountry_break"]
+  },
+  "godscountry_hit": {
+    "subtitle": "sounds.europicamod.godscountry_hit",
+    "sounds": ["europicamod:godscountry_hit"]
+  },
+  "godscountry_fall": {
+    "subtitle": "sounds.europicamod.godscountry_fall",
+    "sounds": ["europicamod:godscountry_fall"]
+  }
+}

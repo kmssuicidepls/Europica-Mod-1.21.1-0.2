@@ -2,9 +2,9 @@ package com.kmssuicidepls.europicamod.block;
 
 import com.kmssuicidepls.europicamod.EuropicaMod;
 import com.kmssuicidepls.europicamod.items.ModItems;
+import com.kmssuicidepls.europicamod.sound.ModSounds;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.DropExperienceBlock;
@@ -26,10 +26,10 @@ public class ModBlocks {
                         .strength(4f).requiresCorrectToolForDrops().sound(SoundType.ANVIL));
             });
 
-
     public static final DeferredBlock<Block> INVISIBLE_BLOCK = registerBlock("invisible_block",
             () -> new DropExperienceBlock(UniformInt.of(100, 3000),
                     BlockBehaviour.Properties.of().strength(-2f).noOcclusion().sound(SoundType.ANVIL)));
+
 
     public static final DeferredBlock<Block> FRANCE_BLOCK = registerBlock("france_block",
             () -> new DropExperienceBlock(UniformInt.of(100, 3000),
@@ -45,11 +45,11 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> GODSCOUNTRY = registerBlock("godscountry",
             () -> new DropExperienceBlock(UniformInt.of(100, 3000),
-                    BlockBehaviour.Properties.of().strength(1f).sound(SoundType.AMETHYST)));
+                    BlockBehaviour.Properties.of().strength(1f).sound(ModSounds.GODSCOUNTRY_SOUNDS)));
 
     public static final DeferredBlock<Block> GERMAN_BLOCK = registerBlock("german_block",
             () -> new DropExperienceBlock(UniformInt.of(100, 3000),
-                    BlockBehaviour.Properties.of().strength(1f).sound(SoundType.BONE_BLOCK).));
+                    BlockBehaviour.Properties.of().strength(1f).sound(SoundType.BONE_BLOCK)));
 
     public static final DeferredBlock<Block> BRITISH_BLOCK = registerBlock("british_block",
             () -> new DropExperienceBlock(UniformInt.of(100, 3000),
