@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.europicamod.texas_anthem_music_disc.desc"
+  },
+  "length_in_seconds": 70,
+  "sound_event": "europicamod:texas_anthem"
+}

@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.europicamod.british_anthem_music_disc.desc"
+  },
+  "length_in_seconds": 160,
+  "sound_event": "europicamod:british_anthem"
+}

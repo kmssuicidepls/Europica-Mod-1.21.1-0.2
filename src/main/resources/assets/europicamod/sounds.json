@@ -38,5 +38,52 @@
   "dutch_fall": {
     "subtitle": "sounds.europicamod.dutch_fall",
     "sounds": ["minecraft:bone_fall"]
+  },
+  "texas_anthem": {
+    "sounds": [
+      {
+        "name": "europicamod:texas_anthem",
+        "stream": true
+      }
+    ]
+  },
+  "american_anthem": {
+    "sounds": [
+      {
+        "name": "europicamod:american_anthem",
+        "stream": true
+      }
+    ]
+  },
+  "dutch_anthem": {
+    "sounds": [
+      {
+        "name": "europicamod:dutch_anthem",
+        "stream": true
+      }
+    ]
+  },
+  "german_anthem": {
+    "sounds": [
+      {
+        "name": "europicamod:german_anthem",
+        "stream": true
+      }
+    ]
+  },
+  "french_anthem": {
+    "sounds": [
+      {
+        "name": "europicamod:french_anthem",
+        "stream": true
+      }
+    ]  },
+  "british_anthem": {
+    "sounds": [
+      {
+        "name": "europicamod:british_anthem",
+        "stream": true
+      }
+    ]
   }
 }

@@ -2,7 +2,21 @@
   "creativetab.europicamod.europica_mod": "Europica Mod",
 
   "item.europicamod.europicaducat": "Europica Ducat",
-  "item.europicamod.europicaticket": "Europica Ticket",
+  "item.europicamod.europicaentranceticket": "Europica Entrance Ticket",
+  "item.europicamod.europicarideticket": "Europica Ride Ticket",
+
+  "item.europicamod.texas_anthem_music_disc": "Texas State Anthem Music Disc",
+  "item.europicamod.texas_anthem_music_disc.desc": "Texas, Our Texas - William J. Marsh",
+  "item.europicamod.american_anthem_music_disc": "American National Anthem Music Disc",
+  "item.europicamod.american_anthem_music_disc.desc": "Star Spangled Banner - Francis Scott Key",
+  "item.europicamod.dutch_anthem_music_disc": "Dutch National Anthem Music Disc",
+  "item.europicamod.dutch_anthem_music_disc.desc": "Het Wilhelmus - Philips van Marnix?",
+  "item.europicamod.german_anthem_music_disc": "German National Anthem Music Disc",
+  "item.europicamod.german_anthem_music_disc.desc": "Das Deutschlandlied - August Heinrich Hoffmann von Fallersleben",
+  "item.europicamod.french_anthem_music_disc": "French National Anthem Music Disc",
+  "item.europicamod.french_anthem_music_disc.desc": "La Marseillaise - Claude Joseph Rouget de Lisle",
+  "item.europicamod.british_anthem_music_disc": "British Traditional Anthem Music Disc",
+  "item.europicamod.british_anthem_music_disc.desc": "God Save the King - Unknown",
 
   "block.europicamod.placeholder_block": "Block of Placeholding",
   "block.europicamod.invisible_block": "Invisible Block",

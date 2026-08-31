@@ -20,14 +20,22 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.europicamod.europica_mod"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.EUROPICADUCAT);
-                        output.accept(ModItems.EUROPICATICKET);
+                        output.accept(ModItems.EUROPICAENTRANCETICKET);
+                        output.accept(ModItems.EUROPICARIDETICKET);
+                        output.accept(ModItems.TEXAS_ANTHEM_MUSIC_DISC);
+                        output.accept(ModItems.AMERICAN_ANTHEM_MUSIC_DISC);
+                        output.accept(ModItems.DUTCH_ANTHEM_MUSIC_DISC);
+                        output.accept(ModItems.GERMAN_ANTHEM_MUSIC_DISC);
+                        output.accept(ModItems.FRENCH_ANTHEM_MUSIC_DISC);
+                        output.accept(ModItems.BRITISH_ANTHEM_MUSIC_DISC);
+
                         output.accept(ModBlocks.PLACEHOLDER_BLOCK);
                         output.accept(ModBlocks.INVISIBLE_BLOCK);
-                        output.accept(ModBlocks.FRANCE_BLOCK);
+                        output.accept(ModBlocks.GODSCOUNTRY);
                         output.accept(ModBlocks.AMERICA_BLOCK);
                         output.accept(ModBlocks.DUTCH_BLOCK);
-                        output.accept(ModBlocks.GODSCOUNTRY);
                         output.accept(ModBlocks.GERMAN_BLOCK);
+                        output.accept(ModBlocks.FRANCE_BLOCK);
                         output.accept(ModBlocks.BRITISH_BLOCK);
                     }).build());
 

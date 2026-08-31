@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "europicamod:item/texas_anthem_music_disc"
+  }
+}
