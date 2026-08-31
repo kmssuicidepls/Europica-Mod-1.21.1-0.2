@@ -1,6 +1,7 @@
 package com.kmssuicidepls.europicamod.block;
 
 import com.kmssuicidepls.europicamod.EuropicaMod;
+import com.kmssuicidepls.europicamod.block.custom.BinBlock;
 import com.kmssuicidepls.europicamod.items.ModItems;
 import com.kmssuicidepls.europicamod.sound.ModSounds;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -29,6 +30,10 @@ public class ModBlocks {
     public static final DeferredBlock<Block> INVISIBLE_BLOCK = registerBlock("invisible_block",
             () -> new DropExperienceBlock(UniformInt.of(100, 3000),
                     BlockBehaviour.Properties.of().strength(-2f).noOcclusion().sound(SoundType.ANVIL)));
+
+    public static final DeferredBlock<Block> BIN_BLOCK = registerBlock("bin_block",
+            () -> new BinBlock(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().noOcclusion()));
+
 
 
     public static final DeferredBlock<Block> FRANCE_BLOCK = registerBlock("france_block",

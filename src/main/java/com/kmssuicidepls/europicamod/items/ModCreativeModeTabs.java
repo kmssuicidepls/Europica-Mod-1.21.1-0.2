@@ -31,6 +31,7 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModBlocks.PLACEHOLDER_BLOCK);
                         output.accept(ModBlocks.INVISIBLE_BLOCK);
+                        output.accept(ModBlocks.BIN_BLOCK);
                         output.accept(ModBlocks.GODSCOUNTRY);
                         output.accept(ModBlocks.AMERICA_BLOCK);
                         output.accept(ModBlocks.DUTCH_BLOCK);
@@ -39,7 +40,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.BRITISH_BLOCK);
                     }).build());
 
-    public static void register (IEventBus eventBus) {
+    public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TAB.register(eventBus);
     }
 }

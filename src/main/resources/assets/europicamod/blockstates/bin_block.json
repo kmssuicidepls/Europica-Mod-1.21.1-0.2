@@ -1,0 +1,20 @@
+{
+  "variants": {
+     "facing=north": {
+        "model": "europicamod:block/bin_block"
+      },
+      "facing=south": {
+        "model": "europicamod:block/bin_block",
+        "y": 180
+      },
+      "facing=east": {
+        "model": "europicamod:block/bin_block",
+        "y": 90
+      },
+      "facing=west": {
+        "model": "europicamod:block/bin_block",
+        "y": 270
+
+    }
+  }
+}

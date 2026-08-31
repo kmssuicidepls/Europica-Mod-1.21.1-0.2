@@ -20,6 +20,7 @@
 
   "block.europicamod.placeholder_block": "Block of Placeholding",
   "block.europicamod.invisible_block": "Invisible Block",
+  "block.europicamod.bin_block": "Trash Can",
   "block.europicamod.france_block": "Block of Baguettes",
   "block.europicamod.usa_block": "Block of Burgers",
   "block.europicamod.dutch_block": "Block of Windmills",
@@ -28,5 +29,9 @@
   "block.europicamod.british_block": "Block of Monocles",
 
   "painting.europicamod.europica_logo.title": "Europica Logo",
-  "painting.europicamod.europica_logo.author": "Europica Team"
+  "painting.europicamod.europica_logo.author": "Europica Team",
+  "painting.europicamod.europica_atms.title": "Europica ATMS",
+  "painting.europicamod.europica_atms.author": "Europica Team",
+  "painting.europicamod.europica_hotels.title": "Europica Hotels",
+  "painting.europicamod.europica_hotels.author": "Europica Team"
 }
