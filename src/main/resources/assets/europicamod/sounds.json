@@ -18,5 +18,25 @@
   "godscountry_fall": {
     "subtitle": "sounds.europicamod.godscountry_fall",
     "sounds": ["europicamod:godscountry_fall"]
+  },
+  "dutch_place": {
+    "subtitle": "sounds.europicamod.dutch_place",
+    "sounds": ["minecraft:bone_place"]
+  },
+  "dutch_step": {
+    "subtitle": "sounds.europicamod.dutch_step",
+    "sounds": ["minecraft:bone_step"]
+  },
+  "dutch_break": {
+    "subtitle": "sounds.europicamod.dutch_break",
+    "sounds": ["europicamod:dutch_break"]
+  },
+  "dutch_hit": {
+    "subtitle": "sounds.europicamod.dutch_hit",
+    "sounds": ["minecraft:bone_hit"]
+  },
+  "dutch_fall": {
+    "subtitle": "sounds.europicamod.dutch_fall",
+    "sounds": ["minecraft:bone_fall"]
   }
 }

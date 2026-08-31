@@ -20,8 +20,18 @@ public class ModSounds {
     public static final Supplier<SoundEvent> GODSCOUNTRY_HIT = registerSoundEvent("godscountry_hit");
     public static final Supplier<SoundEvent> GODSCOUNTRY_FALL = registerSoundEvent("godscountry_fall");
 
+    public static final Supplier<SoundEvent> DUTCH_BREAK = registerSoundEvent("dutch_break");
+    public static final Supplier<SoundEvent> DUTCH_STEP = registerSoundEvent("dutch_step");
+    public static final Supplier<SoundEvent> DUTCH_PLACE = registerSoundEvent("dutch_place");
+    public static final Supplier<SoundEvent> DUTCH_HIT = registerSoundEvent("dutch_hit");
+    public static final Supplier<SoundEvent> DUTCH_FALL = registerSoundEvent("dutch_fall");
+
+
     public static final DeferredSoundType GODSCOUNTRY_SOUNDS = new DeferredSoundType(5f, 1f,
             ModSounds.GODSCOUNTRY_BREAK, ModSounds.GODSCOUNTRY_STEP, ModSounds.GODSCOUNTRY_PLACE, ModSounds.GODSCOUNTRY_HIT, ModSounds.GODSCOUNTRY_FALL);
+
+    public static final DeferredSoundType DUTCH_SOUNDS = new DeferredSoundType(5f, 1f,
+            ModSounds.DUTCH_BREAK, ModSounds.DUTCH_STEP, ModSounds.DUTCH_PLACE, ModSounds.DUTCH_HIT, ModSounds.DUTCH_FALL);
 
     public static Supplier<SoundEvent> registerSoundEvent (String name) {
         ResourceLocation id = ResourceLocation.fromNamespaceAndPath(EuropicaMod.MOD_ID, name);

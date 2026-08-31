@@ -41,7 +41,7 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> DUTCH_BLOCK = registerBlock("dutch_block",
             () -> new DropExperienceBlock(UniformInt.of(100, 3000),
-                    BlockBehaviour.Properties.of().strength(1f).sound(SoundType.BONE_BLOCK)));
+                    BlockBehaviour.Properties.of().strength(1f).sound(ModSounds.DUTCH_SOUNDS)));
 
     public static final DeferredBlock<Block> GODSCOUNTRY = registerBlock("godscountry",
             () -> new DropExperienceBlock(UniformInt.of(100, 3000),
