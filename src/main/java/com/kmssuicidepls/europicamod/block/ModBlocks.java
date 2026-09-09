@@ -34,6 +34,8 @@ public class ModBlocks {
     public static final DeferredBlock<Block> BIN_BLOCK = registerBlock("bin_block",
             () -> new BinBlock(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().noOcclusion()));
 
+    public static final DeferredBlock<Block> BRASS_BIN = registerBlock("brass_bin",
+            () -> new BinBlock(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().noOcclusion()));
 
 
     public static final DeferredBlock<Block> FRANCE_BLOCK = registerBlock("france_block",

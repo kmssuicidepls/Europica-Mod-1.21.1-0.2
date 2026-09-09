@@ -38,6 +38,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.GERMAN_BLOCK);
                         output.accept(ModBlocks.FRANCE_BLOCK);
                         output.accept(ModBlocks.BRITISH_BLOCK);
+                        output.accept(ModBlocks.BRASS_BIN);
                     }).build());
 
     public static void register(IEventBus eventBus) {
