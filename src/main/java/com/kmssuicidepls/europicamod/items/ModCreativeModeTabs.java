@@ -31,14 +31,18 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModBlocks.PLACEHOLDER_BLOCK);
                         output.accept(ModBlocks.INVISIBLE_BLOCK);
-                        output.accept(ModBlocks.BIN_BLOCK);
+                        output.accept(ModBlocks.ATM_BLOCK);
+
                         output.accept(ModBlocks.GODSCOUNTRY);
                         output.accept(ModBlocks.AMERICA_BLOCK);
                         output.accept(ModBlocks.DUTCH_BLOCK);
                         output.accept(ModBlocks.GERMAN_BLOCK);
                         output.accept(ModBlocks.FRANCE_BLOCK);
                         output.accept(ModBlocks.BRITISH_BLOCK);
+
+                        output.accept(ModBlocks.BIN_BLOCK);
                         output.accept(ModBlocks.BRASS_BIN);
+                        output.accept(ModBlocks.SANDSTONE_BIN);
                     }).build());
 
     public static void register(IEventBus eventBus) {

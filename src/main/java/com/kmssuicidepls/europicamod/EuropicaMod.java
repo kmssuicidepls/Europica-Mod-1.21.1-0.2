@@ -3,6 +3,7 @@ package com.kmssuicidepls.europicamod;
 import com.kmssuicidepls.europicamod.block.ModBlocks;
 import com.kmssuicidepls.europicamod.items.ModCreativeModeTabs;
 import com.kmssuicidepls.europicamod.items.ModItems;
+import com.kmssuicidepls.europicamod.registry.ModMenuTypes;
 import com.kmssuicidepls.europicamod.sound.ModSounds;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
@@ -39,6 +40,7 @@ public class EuropicaMod {
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModSounds.register(modEventBus);
+        ModMenuTypes.MENUS.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);

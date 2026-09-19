@@ -1,8 +1,10 @@
 package com.kmssuicidepls.europicamod.items;
 
 import com.kmssuicidepls.europicamod.EuropicaMod;
+import com.kmssuicidepls.europicamod.block.ModBlocks;
 import com.kmssuicidepls.europicamod.sound.ModSounds;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.JukeboxSong;
 import net.neoforged.bus.api.IEventBus;
@@ -36,6 +38,9 @@ public class ModItems {
 
     public static final DeferredItem<Item> BRITISH_ANTHEM_MUSIC_DISC = ITEMS.register("british_anthem_music_disc",
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.BRITISH_ANTHEM_KEY).stacksTo(1)));
+
+    public static final DeferredItem<BlockItem> ATM_BLOCK_ITEM =
+            ITEMS.registerSimpleBlockItem("atm_block", ModBlocks.ATM_BLOCK);
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

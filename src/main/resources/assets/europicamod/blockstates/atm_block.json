@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=north,half=lower": {
+      "model": "europicamod:block/atm_block_lower"
+    },
+    "facing=east,half=lower": {
+      "model": "europicamod:block/atm_block_lower",
+      "y": 90
+    },
+    "facing=south,half=lower": {
+      "model": "europicamod:block/atm_block_lower",
+      "y": 180
+    },
+    "facing=west,half=lower": {
+      "model": "europicamod:block/atm_block_lower",
+      "y": 270
+    },
+    "facing=north,half=upper": {
+      "model": "europicamod:block/atm_block_upper"
+    },
+    "facing=east,half=upper": {
+      "model": "europicamod:block/atm_block_upper",
+      "y": 90
+    },
+    "facing=south,half=upper": {
+      "model": "europicamod:block/atm_block_upper",
+      "y": 180
+    },
+    "facing=west,half=upper": {
+      "model": "europicamod:block/atm_block_upper",
+      "y": 270
+    }
+  }
+}

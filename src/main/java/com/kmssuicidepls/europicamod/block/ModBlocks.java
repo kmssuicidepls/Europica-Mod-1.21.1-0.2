@@ -1,6 +1,7 @@
 package com.kmssuicidepls.europicamod.block;
 
 import com.kmssuicidepls.europicamod.EuropicaMod;
+import com.kmssuicidepls.europicamod.block.custom.AtmBlock;
 import com.kmssuicidepls.europicamod.block.custom.BinBlock;
 import com.kmssuicidepls.europicamod.items.ModItems;
 import com.kmssuicidepls.europicamod.sound.ModSounds;
@@ -37,6 +38,11 @@ public class ModBlocks {
     public static final DeferredBlock<Block> BRASS_BIN = registerBlock("brass_bin",
             () -> new BinBlock(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().noOcclusion()));
 
+    public static final DeferredBlock<Block> SANDSTONE_BIN = registerBlock("sandstone_bin",
+            () -> new BinBlock(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().noOcclusion()));
+
+    public static final DeferredBlock<AtmBlock> ATM_BLOCK = BLOCKS.registerBlock("atm_block",
+            AtmBlock::new, BlockBehaviour.Properties.of().strength(3.0f).requiresCorrectToolForDrops().noOcclusion());
 
     public static final DeferredBlock<Block> FRANCE_BLOCK = registerBlock("france_block",
             () -> new DropExperienceBlock(UniformInt.of(100, 3000),
