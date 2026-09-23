@@ -54,6 +54,9 @@ public class ModSounds {
     public static final Supplier<SoundEvent> BRITISH_ANTHEM = registerSoundEvent("british_anthem");
     public static final ResourceKey<JukeboxSong> BRITISH_ANTHEM_KEY = createSong("british_anthem");
 
+    public static final Supplier<SoundEvent> EUROPEAN_ANTHEM = registerSoundEvent("european_anthem");
+    public static final ResourceKey<JukeboxSong> EUROPEAN_ANTHEM_KEY = createSong("european_anthem");
+
     private static ResourceKey<JukeboxSong> createSong(String name){
         return ResourceKey.create(Registries.JUKEBOX_SONG, ResourceLocation.fromNamespaceAndPath(EuropicaMod.MOD_ID, name));
     }

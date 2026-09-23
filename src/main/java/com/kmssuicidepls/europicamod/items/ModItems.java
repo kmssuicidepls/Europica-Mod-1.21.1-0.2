@@ -39,6 +39,9 @@ public class ModItems {
     public static final DeferredItem<Item> BRITISH_ANTHEM_MUSIC_DISC = ITEMS.register("british_anthem_music_disc",
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.BRITISH_ANTHEM_KEY).stacksTo(1)));
 
+    public static final DeferredItem<Item> EUROPEAN_ANTHEM_MUSIC_DISC = ITEMS.register("european_anthem_music_disc",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.EUROPEAN_ANTHEM_KEY).stacksTo(1)));
+
     public static final DeferredItem<BlockItem> ATM_BLOCK_ITEM =
             ITEMS.registerSimpleBlockItem("atm_block", ModBlocks.ATM_BLOCK);
 

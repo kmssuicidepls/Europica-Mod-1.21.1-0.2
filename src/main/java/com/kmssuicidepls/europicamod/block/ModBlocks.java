@@ -68,6 +68,10 @@ public class ModBlocks {
             () -> new DropExperienceBlock(UniformInt.of(100, 3000),
                     BlockBehaviour.Properties.of().strength(1f).sound(SoundType.BONE_BLOCK)));
 
+    public static final DeferredBlock<Block> EUROPEAN_BLOCK = registerBlock("european_block",
+            () -> new DropExperienceBlock(UniformInt.of(100, 3000),
+                    BlockBehaviour.Properties.of().strength(1f).sound(SoundType.BONE_BLOCK)));
+
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

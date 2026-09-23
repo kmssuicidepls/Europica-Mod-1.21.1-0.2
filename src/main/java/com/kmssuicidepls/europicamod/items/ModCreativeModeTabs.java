@@ -20,16 +20,15 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.europicamod.europica_mod"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.EUROPICADUCAT);
-                        output.accept(ModItems.EUROPICAENTRANCETICKET);
-                        output.accept(ModItems.EUROPICARIDETICKET);
+                        output.accept(ModBlocks.PLACEHOLDER_BLOCK);
                         output.accept(ModItems.TEXAS_ANTHEM_MUSIC_DISC);
                         output.accept(ModItems.AMERICAN_ANTHEM_MUSIC_DISC);
                         output.accept(ModItems.DUTCH_ANTHEM_MUSIC_DISC);
                         output.accept(ModItems.GERMAN_ANTHEM_MUSIC_DISC);
                         output.accept(ModItems.FRENCH_ANTHEM_MUSIC_DISC);
                         output.accept(ModItems.BRITISH_ANTHEM_MUSIC_DISC);
+                        output.accept(ModItems.EUROPEAN_ANTHEM_MUSIC_DISC);
 
-                        output.accept(ModBlocks.PLACEHOLDER_BLOCK);
                         output.accept(ModBlocks.INVISIBLE_BLOCK);
                         output.accept(ModBlocks.ATM_BLOCK);
 
@@ -39,10 +38,14 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.GERMAN_BLOCK);
                         output.accept(ModBlocks.FRANCE_BLOCK);
                         output.accept(ModBlocks.BRITISH_BLOCK);
+                        output.accept(ModBlocks.EUROPEAN_BLOCK);
 
                         output.accept(ModBlocks.BIN_BLOCK);
                         output.accept(ModBlocks.BRASS_BIN);
                         output.accept(ModBlocks.SANDSTONE_BIN);
+
+                        output.accept(ModItems.EUROPICAENTRANCETICKET);
+                        output.accept(ModItems.EUROPICARIDETICKET);
                     }).build());
 
     public static void register(IEventBus eventBus) {

@@ -77,11 +77,20 @@
         "name": "europicamod:french_anthem",
         "stream": true
       }
-    ]  },
+    ]
+  },
   "british_anthem": {
     "sounds": [
       {
         "name": "europicamod:british_anthem",
+        "stream": true
+      }
+    ]
+  },
+  "european_anthem": {
+    "sounds": [
+      {
+        "name": "europicamod:european_anthem",
         "stream": true
       }
     ]
