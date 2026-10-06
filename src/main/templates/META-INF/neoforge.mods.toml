@@ -24,7 +24,7 @@ license="MIT"
 modId="europicamod" #mandatory
 
 # The version number of the mod
-version="0.0.2" #mandatory
+version="0.1.19" #mandatory
 
 # A display name for the mod
 displayName="Europica Mod" #mandatory

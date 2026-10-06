@@ -23,9 +23,7 @@ public class ModBlocks {
             DeferredRegister.createBlocks(EuropicaMod.MOD_ID);
 
     public static final DeferredBlock<Block> PLACEHOLDER_BLOCK = registerBlock("placeholder_block",
-            () -> {
-                return new Block(BlockBehaviour.Properties.of()
-                        .strength(4f).requiresCorrectToolForDrops().sound(SoundType.ANVIL));
+            () -> { return new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.ANVIL));
             });
 
     public static final DeferredBlock<Block> INVISIBLE_BLOCK = registerBlock("invisible_block",
